@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../CSS/fonts.css">
+        <title>Conversão de Bases</title>
+    </head>
+
+    <body>
+        <h2>Conversão de Bases</h2>
+        <img src="../Imagens/Conv_bases.jpg">
+        <div>
+            <p>No exemplo, a conversão é feita da base 12 para hexadecimal (16).</p>
+            <p>Para isso, devemos primeiro converter a base 12 para a base decimal (10, padrão do ser humano).</p>
+            <p>Inicialmente, marcamos os dígitos em ordem decrescente começando do 0, no exemplo: 8 é a posição 0, o segundo 8 é a posição 1, e 1 é a posição 2</p>
+            <p>Na sequência, multiplicamos cada dígito por sua base<sup>posição</sup> e somamos todas essas operações, como no exemplo, 1x12<sup>2</sup> + 8x12<sup>1</sup> + 8x12<sup>0</sup>=248, e assim temos o valor na base decimal.</p>
+            <p>Com o valor na base decimal, realizamos divisões inteiras consecutivas até chegarmos ao resultado 0, quando isso ocorrer, realizamos o percurso do fim ao início, pegando o resto de cada divisão e formando o dígito na base requisitada.</p>
+            <p class="obs">Obs.: Em bases maiores que 10, Os número 10, 11, 12, ... são representados por A, B, C, ...</p>
+        </div>
+    </body>
+</html>

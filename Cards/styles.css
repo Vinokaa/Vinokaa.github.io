@@ -1,0 +1,94 @@
+body{
+    padding: 35px 50px;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    align-content: center;
+}
+
+h2{
+    font-family: "poppinssemibold";
+    font-size: 50px;
+    color: blueviolet;
+}
+
+h3{
+    font-family: "poppinssemibold";
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    font-family: "poppinslight";
+    font-size: 20px;
+    color: white;
+}
+
+.piadinha{
+    font-family: "poppinslightitalic";
+    font-size: 15px;
+}
+
+.obs{
+    font-family: "poppinslightitalic";
+    font-size: 18px;
+}
+
+.sidebside{
+    display: inline-flex;
+    margin: 10px 0px;
+}
+
+img{
+    margin: 0px 1%;
+    width: 50%;
+    height: 55%;
+}
+
+dialog{
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    padding: 0px;
+    width: 65%;
+    height: 75%;
+}
+
+.imgPopup{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.imgSJP{
+    width: 48.2%;
+    cursor: pointer;
+}
+
+.imgCan{
+    width: 48.2%;
+    cursor: pointer;
+}
+
+.fechar{
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+div{
+    margin: auto;
+    align-self: center;
+    width: 50%;
+}
+
+.bloco{
+    display: inline-flex;
+    width: 100%;
+}
+
+.codigo{
+    width: 50%;
+    height: 800px;
+}

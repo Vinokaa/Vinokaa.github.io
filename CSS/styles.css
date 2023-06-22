@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(34, 34, 34);
+    margin: 0px;
+    padding: 200px 10%;
+    padding-bottom: 0;
+    font-family: "poppinsextralight";
+}
+
+.principal{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+    border-style: solid;
+    border-bottom: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-color: rgb(150, 150, 150);
+    margin-top: 100px;
+    width: 100%;
+    padding: 1px;
+}
+
+footer h3{
+    font-family: "poppinssemibold";
+    color: blueviolet;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.contato{
+    display: inline-flex;
+    align-items: center;
+}
+
+.contato img{
+    width: 30px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.ola{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 250px;
+}
+
+.intro{
+    width: 50%;
+}
+
+.ola img{
+    margin-left: 5%;
+    border-radius: 300px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 5px;
+    width: 30%;
+    height: auto;
+}
+
+h2{
+    line-height: 50px;
+    font-family: "poppinssemibold";
+    font-size: 50px;
+    color: blueviolet;
+}
+
+p{
+    font-family: "poppinslight";
+    font-size: 20px;
+    color: white;
+}
+
+.lastLine{
+    margin-bottom: 41.5px;
+}
+
+.projetos{
+    width: 100%;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.projTitulo{
+    margin-bottom: 250px;
+}
+
+.card{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    position: relative;
+    background-color: rgb(60, 60, 60);
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(150, 150, 150);
+    width: 25%;
+}
+
+.card a::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: " ";
+}
+
+.card:hover{
+    background-color: rgb(75, 75, 75);
+    transition: 0.4s all;
+}
+
+.card h2{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.card img{
+    border-radius: 12px;
+    width: 100%;
+    height: 221px;
+}
+
+.card ul{
+    color: white;
+}
+
+.card h2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 120px;
+}
+
+.projetos:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
